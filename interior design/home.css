@@ -1,0 +1,261 @@
+body {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.back {
+    position: absolute;
+    left: 0;
+    background-color: black;
+    height: 100vh;
+    width: 40vw;
+    z-index: -1;
+}
+
+
+.home {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    border: 1px red solid;
+    position: relative;
+
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    left: 100px;
+    height: 40px;
+    width: 100px;
+    /* border: 1px red solid; */
+}
+
+.logo img {
+height: 50px;
+}
+
+.logo p1 {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: 'monospace';
+
+
+}
+
+.logo p2 {
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.logo_l {
+    font-size: 20px;
+}
+
+.content {
+    /* border: 1px red solid; */
+    height: 350px;
+    width: 100%;
+    /* background-color: yellow; */
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+.content_top {
+    background-color: rgb(78, 53, 53);
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: 40PX;
+    position: absolute;
+    top: 0;
+
+
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    /* height: 200px; */
+    width: 100%;
+}
+.interior {
+    color:  rgb(232, 232, 250);
+    font-size: 100px ;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    /* font-size: 50px; */
+/* font-family: 'Saira Extra Condensed', sans-serif; */
+
+    margin: -20px;
+}
+
+.p{
+    /* margin: -80px; */
+    color: rgb(248, 206, 206);
+    font-size: 80px;
+    margin-top: -40px;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'PT Mono', monospace;
+    /* background-color: aliceblue; */
+}
+
+.content p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.content p:nth-child(2){
+    margin-top: -30px;
+}
+
+.join {
+    padding: 5px 20px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgb(244, 188, 244);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(57, 57, 101);
+}
+
+.right{
+    height: 100%;
+    position: relative;
+    width: 50%;
+    /* background-image: url(img2.jpg); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+
+}
+
+
+
+.nav{
+
+    position: absolute;
+    top: 0;
+    
+    margin: 0 auto;
+    /* right: 0; */
+    display: flex;
+
+    align-items: end;
+    width: 100%;
+    /* background-color: rgba(245, 222, 179, 0.295); */
+    /* box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.512); */
+}
+ul{
+
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    gap: 40px;
+    /* background-color: white; */
+    text-align: end;
+}
+ul li:nth-child(1){
+    border-bottom: 2px solid;
+}
+
+.rect{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 400px;
+    /* box-shadow: 5px -100px 100px  rgb(224, 233, 119); */
+
+}
+.icons{
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+
+    display: flex;
+    gap: 10px;
+}
+.icons i{
+    border-radius: 50%;
+    font-size: 20px ;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 1px 5px rgb(79, 139, 243);
+
+}
+.font{
+    font-size: 150px;
+    /* text-align: start; */
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -240px;
+    bottom: 240px;
+    font-weight: 900;
+    color: rgba(44, 45, 47, 0.2);
+    /* text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.152); */
+    /* font-family: monospace; */
+    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    letter-spacing: 34px;
+}
+
+
+.right img{
+    height: 580px;
+    width: 600px;
+    /* margin-top: 50px; */
+
+
+}
+
+.arrive{
+    position: absolute;
+    height: 50px;
+    width: fit-content;
+    right: -50px;
+    top: 250px;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 50px;
+    transform: rotate(90deg);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.321);
+
+    border-top: 3px black solid;
+    color: rgb(60, 60, 118);
+    /* text-shadow: 1px 1px 5px rgb(146, 146, 97); */
+    padding: 0px 20px ;
+
+}
+.bar{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
